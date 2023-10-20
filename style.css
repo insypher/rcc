@@ -379,7 +379,9 @@ div.contactBody {
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+select,
+textarea {
   width: calc(100% - 20px);
   padding: 10px;
   border: 1px solid #ccc;
