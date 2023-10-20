@@ -350,9 +350,9 @@ svg {
   width: 400px;
 }
 
-section.splide {
+/* section.splide {
   margin: 50px 200px;
-}
+} */
 
 div.contactBody {
   font-family: Arial, sans-serif;
@@ -411,4 +411,9 @@ button.submit:hover {
   .h-custom {
     height: 100vh !important;
   }
+}
+
+#sectionBasket {
+  background-color: #eee;
+  padding-top: 70px;
 }
