@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RCC - Retail Camping Company</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <i class="fa-solid fa-globe"></i>
+          RCC</a
+        >
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/camping.html" class="nav-link">Camping Equipment</a>
+            </li>
+            <li class="nav-item">
+              <a href="furniture.html" class="nav-link">Furniture</a>
+            </li>
+            <li class="nav-item">
+              <a href="offers.html" class="nav-link">Offers & Package</a>
+            </li>
+            <li class="nav-item">
+              <a href="reviews.html" class="nav-link">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a href="basket.html" class="nav-link">Basket</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="partOne">
+      <div class="leftFirst">
+        <div class="offerTitle">
+          <h2>GREAT DEALS ON</h2>
+          <h2>CAMPING EQUIPMENTS</h2>
+        </div>
+        <div class="offerDesc">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo cupiditate perferendis.</p>
+          <p>obcaecatis maxime nesciunt dolores eaque excepturi ipsam.</p>
+        </div>
+        <div class="offerBtns">
+          <div class="box">
+            <a href="furniture.html">
+              <i class="fa-solid fa-couch"></i>
+              <span>Furnitures</span>
+            </a>
+          </div>
+
+          <div class="box">
+            <a href="camping.html">
+              <i class="fa-solid fa-campground"></i>
+              <span>Camping Equipment</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="rightFirst">
+        <img src="./isolated-camping-tent-nature_1308-128259.avif" alt="" />
+      </div>
+    </section>
+    <div class="sectionTwo">
+      <h2>Special Offers:</h2>
+      <div class="cards">
+        <div class="carddd" id="open-modal-btn-1">
+          <img src="images/bag.jpg" alt="" />
+          <h2>Backpack</h2>
+          <h3>$30.00</h3>
+        </div>
+        <div class="carddd" id="open-modal-btn-2">
+          <img src="images/chair.jpg" alt="" />
+          <h2>Camping Chair</h2>
+          <h3>$40.00</h3>
+        </div>
+        <div class="carddd" id="open-modal-btn-3">
+          <img src="images/table.jpg" alt="" />
+          <h2>Camping Table</h2>
+          <h3>$20.00</h3>
+        </div>
+        <div class="carddd" id="open-modal-btn-4">
+          <img src="images/tent.jpg" alt="" />
+          <h2>Tent</h2>
+          <h3>$30.00</h3>
+        </div>
+        <div id="myModal1" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Modal1 Content Goes Here</p>
+          </div>
+        </div>
+        <div id="myModal2" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Modal2 Content Goes Here</p>
+          </div>
+        </div>
+        <div id="myModal3" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Modal3 Content Goes Here</p>
+          </div>
+        </div>
+        <div id="myModal4" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Modal4 Content Goes Here</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <div class="img_box">
+              <img src="images/multitool.jpg" alt="" class="img-fluid mb-3" />
+              <p class="text-center lead">Multitool</p>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="img_box">
+              <img src="images/camping matress.jpg" alt="" class="img-fluid mb-3" />
+              <p class="text-center lead">Matress</p>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="img_box">
+              <img src="images/chairr.webp" alt="" class="img-fluid mb-3" />
+              <p class="text-center lead">Chair</p>
+            </div>
+          </li>
+
+          <li class="splide__slide">
+            <div class="img_box">
+              <img src="images/tablee.jpg" alt="" class="img-fluid mb-3" />
+              <p class="text-center lead">Table</p>
+            </div>
+          </li>
+
+          <li class="splide__slide">
+            <div class="img_box">
+              <img src="images/camping potsets.webp" alt="" class="img-fluid mb-3" />
+              <p class="text-center lead">Potset</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footerr">
+      <div class="containerr">
+        <div class="roww">
+          <div class="footer-col">
+            <h4>Useful links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="aboutus.html">Offers & Package</a></li>
+              <li><a href="games.html">Reviews</a></li>
+              <li><a href="offers.html">Basket</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Location</h4>
+            <div class="logo">
+              <ul>
+                <li><p>Lorem ipsum dolor</p></li>
+                <li><p>sit amet</p></li>
+                <li><p>Dar es Salaam</p></li>
+                <li><p>Tanzania</p></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <div class="social-links">
+              <a href="#" target="_blank"><i class="fa-solid fa-phone"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script type="text/javascript">
+      var splide = new Splide(".splide", {
+        perPage: 3,
+        perMove: 1,
+        gap: "1.5rem",
+        padding: "3rem",
+        type: "loop",
+        drag: "free",
+        snap: true,
+        autoplay: true,
+        breakpoints: {
+          960: {
+            perPage: 2,
+            gap: ".7rem",
+            height: "12rem",
+            padding: "1.5rem",
+          },
+          640: {
+            perPage: 2,
+            gap: ".7rem",
+            height: "12rem",
+            padding: "1.5rem",
+            arrows: false,
+          },
+          480: {
+            perPage: 1,
+            gap: ".7rem",
+            height: "12rem",
+            arrows: false,
+            padding: "1.5rem",
+          },
+        },
+      });
+
+      splide.mount();
+    </script>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
